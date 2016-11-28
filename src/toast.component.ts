@@ -17,7 +17,7 @@ import { ToastData } from './toasty.service';
             <div *ngIf="toast.title || toast.msg" class="toast-text">
                 <span *ngIf="toast.title" class="toast-title">{{toast.title}}</span>
                 <br *ngIf="toast.title && toast.msg" />
-                <span *ngIf="toast.msg" class="toast-msg">{{toast.msg}}</span>
+                <div *ngIf="toast.msg" class="toast-msg" [innerHtml]="toast.msg"></div>
             </div>
         </div>`
 })

@@ -1,6 +1,6 @@
 {
-  "name": "ng2-toasty",
-  "description": "Angular2 Toasty component shows growl-style alerts and messages for your web app",
+  "name": "mikord_ng2-toasty",
+  "description": "Fork of akserg/ng2-toasty",
   "version": "0.0.0-semantically-released",
   "scripts": {
     "test": "tsc && karma start",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akserg/ng2-toasty.git"
+    "url": "https://github.com/Mikord/ng2-toasty.git"
   },
   "keywords": [
     "angular",
@@ -19,14 +19,14 @@
     "toasty",
     "growl"
   ],
-  "author": "Sergey Akopkokhyants",
+  "author": "Sergey Akopkokhyants, Anton Petrov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/akserg/ng2-toasty/issues"
+    "url": "https://github.com/Mikord/ng2-toasty/issues"
   },
   "main": "index.js",
   "typings": "index",
-  "homepage": "https://github.com/akserg/ng2-toasty",
+  "homepage": "https://github.com/Mikord/ng2-toasty",
   "dependencies": {
     "core-js": "^2.4.1",
     "reflect-metadata": "^0.1.3",
